@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div class="max-width-wrapper">
+        <header
+          class="is-flex is-justify-content-space-between is-align-items-center px-3 mb-6"
+        >
+          <div>
+            <h2 class="page-heading">Social Media Dashboard</h2>
+            <p class="sub-heading">Total Followers: 23,004</p>
+          </div>
+
+          <div class="toggle-button">
+            Dark Mode
+
+            <!-- Rounded switch -->
+            <label class="custom-switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </header>
+
+        <div class="columns m-0">
+          <!-- ======== FACEBOOK ======== -->
+          <div class="column">
+            <div class="stat-card facebook">
+              <p class="card-heading mb-3 is-flex is-align-items-center">
+                <img src="./images/icon-facebook.svg" />
+                <span class="ml-2">@nathanf</span>
+              </p>
+
+              <p class="card-title">1987</p>
+              <p class="card-subtitle">Followers</p>
+
+              <p class="card-info mt-5 is-flex is-align-items-center">
+                <img src="./images/icon-up.svg" />
+                <span class="ml-1">12 Today</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- ======== TWITTER ======== -->
+          <div class="column">
+            <div class="stat-card twitter">
+              <p class="card-heading mb-3 is-flex is-align-items-center">
+                <img src="./images/icon-twitter.svg" />
+                <span class="ml-2">@nathanf</span>
+              </p>
+
+              <p class="card-title">1987</p>
+              <p class="card-subtitle">Followers</p>
+
+              <p class="card-info mt-5 is-flex is-align-items-center">
+                <img src="./images/icon-up.svg" />
+                <span class="ml-1">12 Today</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- ======== INSTAGRAM ======== -->
+          <div class="column">
+            <div class="stat-card instagram">
+              <p class="card-heading mb-3 is-flex is-align-items-center">
+                <img src="./images/icon-instagram.svg" />
+                <span class="ml-2">@nathanf</span>
+              </p>
+
+              <p class="card-title">1987</p>
+              <p class="card-subtitle">Followers</p>
+
+              <p class="card-info mt-5 is-flex is-align-items-center">
+                <img src="./images/icon-up.svg" />
+                <span class="ml-1">12 Today</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- ======== YOUTUBE ======== -->
+          <div class="column">
+            <div class="stat-card youtube">
+              <p class="card-heading mb-3 is-flex is-align-items-center">
+                <img src="./images/icon-youtube.svg" />
+                <span class="ml-2">@nathanf</span>
+              </p>
+
+              <p class="card-title">8239</p>
+              <p class="card-subtitle">Followers</p>
+
+              <p class="card-info-red mt-5 is-flex is-align-items-center">
+                <img src="./images/icon-down.svg" />
+                <span class="ml-1">144 Today</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================== CARD OVERVIEW ========================================  -->
+        <div class="section-overview mt-5 px-3">
+          <h2 class="section-overview-heading mb-4">Overview - Today</h2>
+
+          <div class="columns is-flex-wrap-wrap">
+            <!-- ======== FACEBOOK ======== -->
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Page Views</p>
+                  <img src="./images/icon-facebook.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent">
+                    <img src="./images/icon-up.svg" />
+                    <span class="">3%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Page Views</p>
+                  <img src="./images/icon-facebook.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent">
+                    <img src="./images/icon-up.svg" />
+                    <span class="">3%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ======== INSTAGRAM ======== -->
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Page Views</p>
+                  <img src="./images/icon-instagram.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent">
+                    <img src="./images/icon-up.svg" />
+                    <span class="">3%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Page Views</p>
+                  <img src="./images/icon-instagram.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent">
+                    <img src="./images/icon-up.svg" />
+                    <span class="">3%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ======== TWITTER ======== -->
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Page Views</p>
+                  <img src="./images/icon-twitter.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent">
+                    <img src="./images/icon-up.svg" />
+                    <span class="">3%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Page Views</p>
+                  <img src="./images/icon-twitter.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent">
+                    <img src="./images/icon-up.svg" />
+                    <span class="">3%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ======== YOUTUBE ======== -->
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Likes</p>
+                  <img src="./images/icon-youtube.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">87</p>
+
+                  <p class="percent-red">
+                    <img src="./images/icon-down.svg" />
+                    <span class="">107%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="overview-card p-4">
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center mb-4 overview-header"
+                >
+                  <p class="">Total Views</p>
+                  <img src="./images/icon-youtube.svg" />
+                </div>
+
+                <div
+                  class="is-flex is-justify-content-space-between is-align-items-center overview-body"
+                >
+                  <p class="data">1407</p>
+
+                  <p class="percent-red">
+                    <img src="./images/icon-down.svg" />
+                    <span class="">12%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
